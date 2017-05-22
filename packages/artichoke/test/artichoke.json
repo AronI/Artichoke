@@ -1,0 +1,17 @@
+{
+  "constraints": [
+    {
+      "path": "lib/example1.js",
+      "notAllowedImports": [
+        "react",
+        "color-picker"
+      ]
+    },
+    {
+      "path": "lib/example2.js",
+      "notAllowedImports": [
+        "lodash"
+      ]
+    }
+  ]
+}
